@@ -11,7 +11,7 @@ public class StackSequence {
         for(int i=0; i<arr.length;i++) {
             int b = sc.nextInt();
             arr[i] = b;// 1.수열 입력
-        }
+        }//for
 //        {수열에 중복이 있을때!}
 //         for(int i=0;i<arr.length; i++ ) {// 4. 이걸 수열 입력받은 숫자만큼 반복
 //            for (int j = 1; j <= arr[i]+1; j++  ) {
@@ -34,7 +34,7 @@ public class StackSequence {
 //                         stack.pop();
                          result[i]=stack.pop();
                      }
-                }
+                }//if
             }else{//현재 숫자가 수열의 요소보다 클때 ->이미 스택안에 있으니까
                 int n = stack.pop();
 //                System.out.println(n);
@@ -45,9 +45,9 @@ public class StackSequence {
                 }else{//이건 마이너스를 진행하라는 소리
                     System.out.print(n);
                 }
-            }
+            }//else
                 System.out.print(result[i] + " ");
-            }
+        }//for
 
         sc.close();
         System.out.println();
