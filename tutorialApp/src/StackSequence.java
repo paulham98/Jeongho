@@ -43,7 +43,7 @@ public class StackSequence {
                     System.out.println("NO");//{5, 1, 2, 5, 3, 4}
                     return 0;
                 }else{//이건 마이너스를 진행하라는 소리
-                    System.out.print(n);
+                    result[i]=n;
                 }
             }//else
                 System.out.print(result[i] + " ");
