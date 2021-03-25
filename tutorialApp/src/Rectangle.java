@@ -1,4 +1,4 @@
-class Rectanle{
+class rectanle{
     private int xLow;
     private int yLow;
 }
