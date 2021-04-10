@@ -48,6 +48,7 @@ public class S_Car {
     public static void main(String[] args) {
         vCar a = new vCar("2020 아반떼", "임준서");
         vCar b = new vCar("2021 테슬라 모델 Y", "함정호");
+        vCar c = new vCar("2021 포르쉐 타이칸", "함정호");
         a.speed = 40;
         a.costPf = "14.4km/L";
         a.cost = 1570;
@@ -55,7 +56,12 @@ public class S_Car {
         b.speed = 50;
         b.costPf = "4.8km/kWh";
         b.cost = 6000;
+
+        c.speed = 120;
+        c.costPf = " 2,9km/kWh";
+        c.cost = 14560;
         a.show();
         b.show();
+        c.show();
     }
 }
