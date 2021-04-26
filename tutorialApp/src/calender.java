@@ -1,6 +1,9 @@
 import java.util.Calendar;
 public class calender {
+    calender(int r){
+    }
     public static void main(String[] args) {
+//        calender cal = new calender();
         //매주 월요일이 몇일인지, 15일은 무슨 요일인지
         Calendar cal = Calendar.getInstance();//  인스턴스가 가진 정보의 날짜는 3월 14일
         String[] calDay = {"일", "월", "화","수","목","금","토"};
