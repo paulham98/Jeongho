@@ -5,7 +5,7 @@ import java.util.Random;
 public class javaHW_2 {
     public static void main(String[] args) {
         Random rand = new Random();
-        int value = rand.nextInt(5);
+        int value = rand.nextInt(6);
         ++value;
         System.out.println(value);
     }
